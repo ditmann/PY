@@ -29,16 +29,16 @@ while True:
    
 
         if valg == "1":
-            print(nr1 "+" nr2 "=" addere(nr1, nr2))
+            print(nr1, "+", nr2, "=", addere(nr1, nr2))
 
         elif valg =="2":
-            print(nr1 "-" nr2 "=" subtrahere(nr1, nr2))
+            print(nr1, "-", nr2, "=", subtrahere(nr1, nr2))
     
         elif valg =="3":
-            print(nr1 "x" nr2 "=" multiplisere(nr1, nr2))
+            print(nr1, "x", nr2, "=", multiplisere(nr1, nr2))
     
         elif valg =="4":
-          print(nr1 "/" nr2 "=" dividere(nr1, nr2))
+          print(nr1, "/", nr2, "=", dividere(nr1, nr2))
 
         neste = input ("neste? (y/n) ")
         if neste == "n":
